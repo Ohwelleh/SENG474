@@ -1,0 +1,7 @@
+The wdbc.data file need some adjustments to be compatible with my programs. These are the adjustments that were made and saved as CleanedWDBC.data
+
+- First column removed
+	Reason: This column contained unique ID values that would cause problems with the 		developed programs.
+
+- Changing the values in the diagnosis column(0) from character classification to binary(1 or 0). Malignant(M) diagnosis is 1, and Benign(B) diagnosis is 0
+	Reason: The developed programs only deal with numerical values.
